@@ -49,11 +49,11 @@
 /* cxl objects 
  * cxl_new()
  */
-#include <cxl/libcxl.h>
+#include "libcxl.h"
 
 /* struct daxctl_region
  */
-#include <daxctl/libdaxctl.h>
+#include "libdaxctl.h"
 
 // #include <cxltoyaml.h>
 

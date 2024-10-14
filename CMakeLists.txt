@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0)
+project(jackmem)
+file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+link_directories(${PROJECT_SOURCE_DIR}/lib)
+add_executable(mem-cli ${SRC_LIST})
+target_link_libraries(mem-cli cxl daxctl ndctl)

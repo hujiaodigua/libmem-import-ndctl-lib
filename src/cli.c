@@ -41,7 +41,7 @@
  * cxl_memdev
  * cxl_decoder
  */
-#include <cxl/libcxl.h>
+#include "libcxl.h"
 
 #include "options.h"
 
