@@ -55,7 +55,7 @@
  */
 #include <daxctl/libdaxctl.h>
 
-#include <cxltoyaml.h>
+// #include <cxltoyaml.h>
 
 /* log_init()
  * log_free()
@@ -2017,7 +2017,7 @@ int mem_region_offline_blocks(struct mem_ctx *ctx, struct cxl_region *region)
 	}
 
 	if (rv == 0)
-		info(ctx, "Offlined all blocks of region %s", cxl_region_get_devname(region));
+	{info(ctx, "Offlined all blocks of region %s", cxl_region_get_devname(region));}
 	else 
 		err(ctx, "Failed to offline all blocks of region %s", cxl_region_get_devname(region));
 
@@ -2083,7 +2083,7 @@ int mem_region_online_blocks(struct mem_ctx *ctx, struct cxl_region *region)
 	}
 
 	if (rv == 0)
-		info(ctx, "Onlined all blocks of region %s", cxl_region_get_devname(region));
+	{info(ctx, "Onlined all blocks of region %s", cxl_region_get_devname(region));}
 	else 
 		err(ctx, "Failed to online all blocks of region %s", cxl_region_get_devname(region));
 
