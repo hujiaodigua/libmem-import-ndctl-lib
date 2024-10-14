@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/mem-cli.dir/src/cli.c.o CMakeFiles/mem-cli.dir/src/libmem.c.o CMakeFiles/mem-cli.dir/src/log.c.o CMakeFiles/mem-cli.dir/src/options.c.o -o mem-cli   -L/home/yeeli/Yee-HDD/qemu-cxl_and_kernel/JackrabbitLabs/libmem/lib  -Wl,-rpath,/home/yeeli/Yee-HDD/qemu-cxl_and_kernel/JackrabbitLabs/libmem/lib -lcxl -ldaxctl -lndctl 

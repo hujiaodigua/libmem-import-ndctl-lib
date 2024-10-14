@@ -1,0 +1,3 @@
+/home/yeeli/Yee-HDD/qemu-cxl_and_kernel/JackrabbitLabs/libmem/build/CMakeFiles/mem-cli.dir
+/home/yeeli/Yee-HDD/qemu-cxl_and_kernel/JackrabbitLabs/libmem/build/CMakeFiles/edit_cache.dir
+/home/yeeli/Yee-HDD/qemu-cxl_and_kernel/JackrabbitLabs/libmem/build/CMakeFiles/rebuild_cache.dir
