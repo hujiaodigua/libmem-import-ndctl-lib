@@ -30,28 +30,38 @@ required to build the current version of the `ndctl` project and install the
 manually built `daxctl` and `cxl` libraries. 
 
 See [ndctl](https://github.com/pmem/ndctl) on build and installation 
-instructions.
+instructions.  
+
+attention: `libdax` `libcxl` and `libndctl` already in `lib/`
 
 # Build 
 
 To build simply type:
 
 ```bash
+cd build
+
+cmake ..
+
 make
 ```
 
+<del>
 To install to `/usr/local/*` locations type:
 
 ```bash
-make install
+make installed
 ```
+</del>
 
 # CLI Usage
 
 The `mem` CLI tool can be used to display system memory block information:
 
 ```bash 
-mem show info 
+mem show block
+
+mem info
 ```
 
 To display the state of memory blocks in the system: 
